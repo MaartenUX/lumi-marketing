@@ -38,9 +38,15 @@
   <main class="page-content section">
     <div class="container" style="max-width: 800px;">
 
-      <div class="print-actions fade-up" style="display: flex; gap: var(--spacing-xs); margin-bottom: var(--spacing-xl); justify-content: flex-end;">
-        <button onclick="window.print()" class="btn btn-secondary btn-sm">Afdrukken</button>
-        <button onclick="window.print()" class="btn btn-secondary btn-sm">Opslaan als PDF</button>
+      <div class="legal-tabs">
+        <div class="legal-tab-bar">
+          <a href="privacy.html" class="legal-tab active">Privacyverklaring</a>
+          <a href="gebruiksvoorwaarden.html" class="legal-tab">Gebruiksvoorwaarden</a>
+        </div>
+        <div class="legal-actions">
+          <button onclick="window.print()" class="btn btn-secondary btn-sm">Afdrukken</button>
+          <button onclick="window.print()" class="btn btn-secondary btn-sm">Opslaan als PDF</button>
+        </div>
       </div>
 
       <p class="fade-up" style="color: var(--text-muted); margin-bottom: var(--spacing-xs);">Digitale Voordeur Amsterdam</p>
